@@ -1,0 +1,1211 @@
+--- [SYSTEM] PACK: 'freetype' (*.orig.tar.xz)
+File 'freetype_2.12.1.orig.tar.xz' found!
+--- [SYSTEM] BUILD: 'github.com/pkgstore/linux-deb-freetype.git'
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: warning: upstream signing key but no upstream tarball signature
+dpkg-source: info: building freetype using existing ./freetype_2.12.1.orig-ft2demos.tar.xz
+dpkg-source: info: building freetype using existing ./freetype_2.12.1.orig-ft2docs.tar.xz
+dpkg-source: info: building freetype using existing ./freetype_2.12.1.orig.tar.xz
+dpkg-source: info: using patch list from debian/patches/series
+dpkg-source: warning: ignoring deletion of file meson.build, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file vms_make.com, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file configure, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file CMakeLists.txt, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file meson_options.txt, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file autogen.sh, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file README, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file Makefile, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file .clang-format, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file LICENSE.TXT, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file modules.cfg, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file README.git, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ChangeLog, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory tests
+dpkg-source: warning: ignoring deletion of file tests/meson.build, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file tests/README.md, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory tests/scripts
+dpkg-source: warning: ignoring deletion of file tests/scripts/download-test-fonts.py, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory tests/issue-1063
+dpkg-source: warning: ignoring deletion of file tests/issue-1063/main.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory docs
+dpkg-source: warning: ignoring deletion of file docs/CMAKE, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/INSTALL.ANY, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/DEBUG, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/release, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/GPLv2.TXT, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/INSTALL.GNU, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/MAKEPP, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/freetype-config.1, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/README, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/INSTALL.CROSS, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/INSTALL.VMS, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/FTL.TXT, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/CUSTOMIZE, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/PROBLEMS, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/VERSIONS.TXT, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/CHANGES, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/INSTALL.UNIX, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/INSTALL.MAC, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/DOCGUIDE, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/formats.txt, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/TODO, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/raster.txt, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/INSTALL, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory docs/reference
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-debugging_apis.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-module_management.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-basic_types.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-svg_fonts.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-auto_hinter.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-lcd_rendering.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-sizes_management.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-pfr_fonts.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-truetype_engine.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-properties.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-list_processing.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-bzip2.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-tt_driver.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-ot_validation.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-quick_advance.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-parameter_tags.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/sitemap.xml, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-sfnt_names.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-cid_fonts.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-truetype_tables.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-t1_cid_driver.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-pcf_driver.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-ot_svg_driver.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-cache_subsystem.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-color_management.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-user_allocation.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-mac_specific.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-font_formats.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-bitmap_handling.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-header_file_macros.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-cff_driver.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/index.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-index.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-type1_tables.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-header_inclusion.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/404.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-gasp_table.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-gzip.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-glyph_stroker.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-version.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-glyph_management.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-winfnt_fonts.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-multiple_masters.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-preamble.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-lzw.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-outline_processing.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-base_interface.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-bdf_fonts.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-gx_validation.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-raster.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-error_code_values.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-error_enumerations.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-computations.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-incremental.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/sitemap.xml.gz, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-layer_management.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-glyph_variants.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/ft2-system_interface.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory docs/reference/assets
+dpkg-source: warning: ignoring deletion of directory docs/reference/assets/images
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/images/favicon.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory docs/reference/assets/stylesheets
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/stylesheets/palette.f1a3b89f.min.css.map, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/stylesheets/main.ca7ac06f.min.css.map, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/stylesheets/palette.f1a3b89f.min.css, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/stylesheets/main.ca7ac06f.min.css, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory docs/reference/assets/javascripts
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/bundle.82b56eb2.min.js.map, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/bundle.82b56eb2.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory docs/reference/assets/javascripts/workers
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/workers/search.477d984a.min.js.map, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/workers/search.477d984a.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory docs/reference/assets/javascripts/lunr
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/wordcut.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/tinyseg.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory docs/reference/assets/javascripts/lunr/min
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.no.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.ar.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.tr.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.fi.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.hu.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.th.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.pt.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.ja.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.stemmer.support.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.hi.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.fr.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.it.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.multi.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.jp.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.zh.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.ru.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.nl.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.du.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.es.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.de.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.ro.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.sv.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.da.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/reference/assets/javascripts/lunr/min/lunr.vi.min.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory docs/reference/images
+dpkg-source: warning: ignoring deletion of file docs/reference/images/favico.ico, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory docs/reference/search
+dpkg-source: warning: ignoring deletion of file docs/reference/search/search_index.json, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory docs/reference/stylesheets
+dpkg-source: warning: ignoring deletion of file docs/reference/stylesheets/extra.css, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory docs/reference/javascripts
+dpkg-source: warning: ignoring deletion of file docs/reference/javascripts/extra.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory docs/oldlogs
+dpkg-source: warning: ignoring deletion of file docs/oldlogs/ChangeLog.28, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/oldlogs/ChangeLog.29, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/oldlogs/ChangeLog.210, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/oldlogs/ChangeLog.21, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/oldlogs/ChangeLog.24, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/oldlogs/ChangeLog.25, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/oldlogs/ChangeLog.20, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/oldlogs/ChangeLog.27, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/oldlogs/ChangeLog.26, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/oldlogs/ChangeLog.22, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file docs/oldlogs/ChangeLog.23, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory include
+dpkg-source: warning: ignoring deletion of file include/ft2build.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory include/freetype
+dpkg-source: warning: ignoring deletion of file include/freetype/ftlist.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftchapters.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftgzip.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftparams.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/t1tables.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftmm.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftfntfmt.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftsynth.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/fterrdef.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftgxval.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftmodapi.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftstroke.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftmac.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftgasp.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftlcdfil.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftbbox.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftsizes.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftlzw.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftsystem.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftoutln.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftbitmap.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/otsvg.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftincrem.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftcid.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/fterrors.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/fttrigon.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftlogging.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftcolor.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/tttables.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftotval.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftadvanc.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftwinfnt.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftcache.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/fttypes.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ttnameid.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftmoderr.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftglyph.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/tttags.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftbdf.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftdriver.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftimage.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftpfr.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/freetype.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftbzip2.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftsnames.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/ftrender.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory include/freetype/internal
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/ftrfork.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/svginterface.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/ftpsprop.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/pshints.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/tttypes.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/psaux.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/ftgloadr.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/ftmemory.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/cfftypes.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/compiler-macros.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/ftdebug.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/sfnt.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/ftdrv.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/ftserv.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/ftvalid.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/fthash.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/cffotypes.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/wofftypes.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/fttrace.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/ftcalc.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/ftstream.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/t1types.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/ftobjs.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/autohint.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory include/freetype/internal/services
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svgldict.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svcid.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svotval.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svsfnt.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svpscmap.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svprop.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svwinfnt.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svmetric.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svbdf.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svttcmap.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svcfftl.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svttglyf.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svtteng.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svmm.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svgxval.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svpsinfo.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svpfr.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svpostnm.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svfntfmt.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/internal/services/svkern.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory include/freetype/config
+dpkg-source: warning: ignoring deletion of file include/freetype/config/integer-types.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/config/public-macros.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/config/ftheader.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/config/ftmodule.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/config/ftoption.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/config/ftconfig.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/config/ftstdlib.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/freetype/config/mac-support.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory include/dlg
+dpkg-source: warning: ignoring deletion of file include/dlg/output.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file include/dlg/dlg.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory devel
+dpkg-source: warning: ignoring deletion of file devel/ft2build.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file devel/ftoption.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2docs
+dpkg-source: warning: ignoring deletion of file ft2docs/README.freetype-doc, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2docs/docs
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/documentation.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/index.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/ft2faq.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2docs/docs/js
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/js/freetype2.js, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2docs/docs/design
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/design/basic-design.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/design/design-4.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/design/library-model.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/design/design-1.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/design/design-2.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/design/detailed-design.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/design/index.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/design/design-3.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/design/simple-model.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/design/design-6.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/design/design-5.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2docs/docs/css
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/css/freetype2_-30.css, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/css/freetype.css, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/css/freetype2_60.css, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/css/freetype2_-60.css, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/css/freetype2_30.css, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/css/freetype2_-90.css, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/css/freetype2.css, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/css/freetype2_90.css, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2docs/docs/tutorial
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/tutorial/example5.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/tutorial/example1.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/tutorial/metrics2.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/tutorial/example4.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/tutorial/metrics.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/tutorial/index.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/tutorial/example3.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/tutorial/step3.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/tutorial/example2.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/tutorial/step2.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/tutorial/example5.svg, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/tutorial/step1.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/tutorial/example4.pro, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2docs/docs/image
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/freetype-262-autohinter-stem-darkening-demo2.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/BlendingExamples-thumbnail.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/freetype-262-autohinter-stem-darkening-demo1-thumbnail.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/favicon.ico, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/fond3.jpg, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/fond3_90.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/freetype-27-hinting-comparison.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/freetype-262-autohinter-stem-darkening-demo1.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/favicon_60.ico, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/favicon_90.ico, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/top.gif, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/freetype-262-autohinter-stem-darkening-demo2-thumbnail.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/favicon_-30.ico, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/freetype-27-consolas-v35-v40.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/freetype-27-v35-v40-different-hinting.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/fond3_30.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/freetype-262-new-old-filter-thumbnail.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/fond3_-60.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/fond2.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/fond3_60.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/fond3_-30.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/fond3_-90.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/favicon_-60.ico, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/freetype.jpg, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/BlendingExamples.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/favicon_30.ico, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/favicon_-90.ico, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/fond3.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/freetype-262-new-old-filter.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/image/fond2-small.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2docs/docs/glyphs
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/twlewis2.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/twlewis1.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/points_cubic.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/metrics2.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/points_segment.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/glyphs-3.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/glyphs-5.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/grid_1.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/glyphs-7.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/bravo_kerned.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/bbox1.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/glyphs-2.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/clipping.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/points_conic2.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/bravo_unkerned.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/metrics.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/glyphs-4.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/index.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/down_flow.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/layout.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/glyphs-6.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/points_conic.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/glyphs-1.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/layout2.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/body_comparison.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/up_flow.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2docs/docs/glyphs/bbox2.png, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src
+dpkg-source: warning: ignoring deletion of directory src/psaux
+dpkg-source: warning: ignoring deletion of file src/psaux/psauxmod.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psauxerr.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psfont.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psauxmod.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psconv.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/pshints.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psft.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/t1decode.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/pshints.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psstack.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psstack.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psfixed.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psfont.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/afmparse.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/cffdecode.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/t1cmap.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psblues.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psblues.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psobjs.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psread.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psaux.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/t1decode.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/pserror.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/afmparse.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psread.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psarrst.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psft.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/pserror.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/cffdecode.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psglue.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psintrp.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psarrst.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psconv.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/pstypes.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psobjs.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/t1cmap.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psaux/psintrp.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/base
+dpkg-source: warning: ignoring deletion of file src/base/md5.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftver.rc, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftcalc.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftotval.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftfntfmt.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftbbox.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftbase.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftdbgmem.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftstroke.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftoutln.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftglyph.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftwinfnt.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftbdf.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftsynth.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftadvanc.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftbitmap.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftinit.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftstream.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftpatent.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftmac.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftpfr.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftgxval.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftcolor.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftgasp.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftsnames.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftgloadr.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftbase.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/fthash.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/md5.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftmm.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/fttrigon.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftcid.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/fterrors.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftlcdfil.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/fttype1.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftsystem.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftpsprop.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftrfork.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftdebug.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftfstype.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftobjs.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/base/ftutil.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/sfnt
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttcpal.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/sfwoff.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/sfdriver.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/sfwoff2.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttmtx.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttcolr.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/woff2tags.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/woff2tags.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/sfwoff2.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/sfobjs.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttcpal.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttcmap.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/sfdriver.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttpost.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttcolr.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttsbit.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttmtx.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttsvg.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttkern.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttcmap.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttsbit.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttbdf.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttload.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttbdf.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttkern.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/sferrors.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/sfnt.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/sfwoff.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttload.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/sfobjs.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttcmapc.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttpost.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/ttsvg.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/pngshim.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sfnt/pngshim.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/truetype
+dpkg-source: warning: ignoring deletion of file src/truetype/ttgload.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/ttobjs.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/ttobjs.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/ttsubpix.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/ttsubpix.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/ttpload.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/truetype.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/ttgxvar.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/ttgload.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/ttdriver.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/ttinterp.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/ttinterp.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/ttpload.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/ttgxvar.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/tterrors.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/truetype/ttdriver.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/svg
+dpkg-source: warning: ignoring deletion of file src/svg/svgtypes.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/svg/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/svg/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/svg/ftsvg.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/svg/svg.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/svg/ftsvg.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/smooth
+dpkg-source: warning: ignoring deletion of file src/smooth/ftgrays.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/smooth/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/smooth/ftsmooth.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/smooth/ftsmerrs.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/smooth/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/smooth/ftsmooth.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/smooth/smooth.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/smooth/ftgrays.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/gxvalid
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvalid.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvmort1.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvmod.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvfgen.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvalid.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvmort4.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxverror.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvmorx.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/README, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvmorx0.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvcommn.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvmorx.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvlcar.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvmort5.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvmort0.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvprop.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvbsln.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvmort.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvmorx4.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvfeat.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvmorx5.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvtrak.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvfeat.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvcommn.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvjust.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvmort2.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvmort.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvopbd.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvmod.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvmorx2.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvmorx1.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gxvalid/gxvkern.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/bdf
+dpkg-source: warning: ignoring deletion of file src/bdf/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/bdf/bdf.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/bdf/bdfdrivr.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/bdf/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/bdf/README, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/bdf/bdferror.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/bdf/bdfdrivr.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/bdf/bdf.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/bdf/bdflib.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/pcf
+dpkg-source: warning: ignoring deletion of file src/pcf/pcfread.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pcf/pcfutil.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pcf/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pcf/pcfread.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pcf/pcfdrivr.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pcf/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pcf/README, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pcf/pcf.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pcf/pcfdrivr.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pcf/pcfutil.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pcf/pcf.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pcf/pcferror.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/pfr
+dpkg-source: warning: ignoring deletion of file src/pfr/pfrload.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pfr/pfrdrivr.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pfr/pfrtypes.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pfr/pfrcmap.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pfr/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pfr/pfrgload.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pfr/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pfr/pfrdrivr.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pfr/pfrobjs.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pfr/pfrsbit.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pfr/pfrerror.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pfr/pfrobjs.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pfr/pfrgload.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pfr/pfrload.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pfr/pfr.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pfr/pfrsbit.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pfr/pfrcmap.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/dlg
+dpkg-source: warning: ignoring deletion of file src/dlg/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/dlg/dlgwrap.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/dlg/dlg.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/otvalid
+dpkg-source: warning: ignoring deletion of file src/otvalid/otvalid.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/otvalid/otvjstf.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/otvalid/otvgsub.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/otvalid/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/otvalid/otvgpos.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/otvalid/otvmod.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/otvalid/otvcommn.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/otvalid/otvmath.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/otvalid/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/otvalid/otvcommn.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/otvalid/otvbase.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/otvalid/otvgdef.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/otvalid/otvgpos.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/otvalid/otverror.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/otvalid/otvmod.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/otvalid/otvalid.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/type1
+dpkg-source: warning: ignoring deletion of file src/type1/t1gload.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type1/t1load.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type1/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type1/t1parse.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type1/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type1/t1gload.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type1/t1parse.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type1/t1load.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type1/t1objs.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type1/t1objs.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type1/t1afm.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type1/type1.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type1/t1driver.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type1/t1driver.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type1/t1errors.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type1/t1tokens.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type1/t1afm.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/cff
+dpkg-source: warning: ignoring deletion of file src/cff/cffload.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cff/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cff/cffcmap.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cff/cffgload.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cff/cffobjs.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cff/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cff/cff.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cff/cfferrs.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cff/cffparse.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cff/cfftoken.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cff/cffcmap.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cff/cffdrivr.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cff/cffgload.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cff/cffload.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cff/cffdrivr.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cff/cffobjs.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cff/cffparse.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/tools
+dpkg-source: warning: ignoring deletion of file src/tools/update-copyright-year, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/tools/update-copyright, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/tools/apinames.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/tools/chktrcmp.py, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/tools/glnames.py, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/tools/test_bbox.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/tools/test_trig.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/tools/no-copyright, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/tools/afblue.pl, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/tools/cordic.py, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/tools/make_distribution_archives.py, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/tools/test_afm.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/tools/ftrandom
+dpkg-source: warning: ignoring deletion of file src/tools/ftrandom/ftrandom.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/tools/ftrandom/README, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/tools/ftrandom/Makefile, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/cache
+dpkg-source: warning: ignoring deletion of file src/cache/ftcmru.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/ftccback.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/ftcmru.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/ftcmanag.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/ftcimage.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/ftcimage.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/ftcache.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/ftcmanag.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/ftccmap.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/ftccache.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/ftcglyph.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/ftcsbits.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/ftcbasic.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/ftcerror.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/ftccache.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/ftcsbits.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cache/ftcglyph.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/bzip2
+dpkg-source: warning: ignoring deletion of file src/bzip2/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/bzip2/ftbzip2.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/type42
+dpkg-source: warning: ignoring deletion of file src/type42/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type42/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type42/t42types.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type42/type42.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type42/t42drivr.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type42/t42objs.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type42/t42parse.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type42/t42error.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type42/t42objs.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type42/t42drivr.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/type42/t42parse.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/sdf
+dpkg-source: warning: ignoring deletion of file src/sdf/ftbsdf.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sdf/ftsdferrs.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sdf/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sdf/ftsdf.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sdf/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sdf/ftsdf.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sdf/ftsdfcommon.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sdf/ftsdfcommon.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sdf/ftsdfrend.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sdf/ftsdfrend.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/sdf/sdf.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/lzw
+dpkg-source: warning: ignoring deletion of file src/lzw/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/lzw/ftlzw.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/lzw/ftzopen.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/lzw/ftzopen.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/winfonts
+dpkg-source: warning: ignoring deletion of file src/winfonts/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/winfonts/winfnt.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/winfonts/fnterrs.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/winfonts/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/winfonts/winfnt.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/raster
+dpkg-source: warning: ignoring deletion of file src/raster/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/raster/rasterrs.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/raster/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/raster/ftmisc.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/raster/ftraster.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/raster/ftraster.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/raster/raster.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/raster/ftrend1.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/raster/ftrend1.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/autofit
+dpkg-source: warning: ignoring deletion of file src/autofit/autofit.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afhints.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/aflatin.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/aferrors.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afhints.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afblue.cin, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afblue.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afloader.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afstyles.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afmodule.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afloader.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afcjk.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afglobal.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afglobal.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afblue.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afmodule.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afdummy.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afblue.dat, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afcover.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afranges.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afshaper.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afindic.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afscript.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/aftypes.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afindic.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afranges.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afcjk.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afws-iter.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/aflatin.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afblue.hin, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afshaper.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afws-decl.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/autofit/afdummy.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/cid
+dpkg-source: warning: ignoring deletion of file src/cid/cidload.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cid/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cid/cidparse.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cid/type1cid.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cid/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cid/ciderrs.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cid/cidriver.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cid/cidobjs.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cid/cidriver.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cid/cidgload.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cid/cidtoken.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cid/cidparse.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cid/cidobjs.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cid/cidgload.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/cid/cidload.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/pshinter
+dpkg-source: warning: ignoring deletion of file src/pshinter/pshalgo.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pshinter/pshglob.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pshinter/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pshinter/pshglob.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pshinter/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pshinter/pshmod.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pshinter/pshinter.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pshinter/pshmod.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pshinter/pshalgo.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pshinter/pshrec.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pshinter/pshrec.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/pshinter/pshnterr.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/psnames
+dpkg-source: warning: ignoring deletion of file src/psnames/module.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psnames/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psnames/psmodule.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psnames/pstables.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psnames/psnamerr.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psnames/psnames.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/psnames/psmodule.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/gzip
+dpkg-source: warning: ignoring deletion of file src/gzip/inffast.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/inftrees.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/inffixed.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/inffast.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/inflate.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/zutil.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/ftgzip.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/ftzconf.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/inftrees.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/infback.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/README.freetype, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/zutil.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/inflate.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/crc32.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/adler32.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/crc32.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/zlib.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file src/gzip/gzguts.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory src/gzip/patches
+dpkg-source: warning: ignoring deletion of file src/gzip/patches/freetype-zlib.diff, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds
+dpkg-source: warning: ignoring deletion of file builds/link_std.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/detect.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/exports.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/freetype.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/toplevel.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/modules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/link_dos.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/vms
+dpkg-source: warning: ignoring deletion of file builds/vms/vmslib.dat, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/vms/LIBS.OPT_IA64, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/vms/ftconfig.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/vms/_LINK.OPT_IA64, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/vms/ftsystem.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/os2
+dpkg-source: warning: ignoring deletion of file builds/os2/os2-def.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/os2/detect.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/os2/os2-gcc.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/os2/os2-dev.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/windows
+dpkg-source: warning: ignoring deletion of file builds/windows/w32-lcc.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/w32-intl.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/detect.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/w32-bcc.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/w32-vcc.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/w32-dev.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/w32-bccd.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/w32-gcc.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/w32-mingw32.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/ftsystem.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/win32-def.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/w32-wat.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/w32-icc.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/ftdebug.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/windows/visualc
+dpkg-source: warning: ignoring deletion of file builds/windows/visualc/freetype.dsp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/visualc/freetype.dsw, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/visualc/index.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/visualc/freetype.vcproj, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/visualc/freetype.sln, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/windows/vc2010
+dpkg-source: warning: ignoring deletion of file builds/windows/vc2010/freetype.user.props, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/vc2010/freetype.vcxproj.filters, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/vc2010/freetype.vcxproj, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/vc2010/index.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/vc2010/freetype.sln, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/windows/visualce
+dpkg-source: warning: ignoring deletion of file builds/windows/visualce/freetype.dsp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/visualce/freetype.dsw, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/visualce/index.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/windows/visualce/freetype.vcproj, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/mac
+dpkg-source: warning: ignoring deletion of file builds/mac/FreeType.ppc_carbon.make.txt, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/mac/ftlib.prj.xml, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/mac/ascii2mpw.py, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/mac/README, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/mac/freetype-Info.plist, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/mac/FreeType.m68k_cfm.make.txt, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/mac/ftmac.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/mac/FreeType.m68k_far.make.txt, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/mac/FreeType.ppc_classic.make.txt, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/compiler
+dpkg-source: warning: ignoring deletion of file builds/compiler/intelc.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/compiler/gcc.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/compiler/bcc-dev.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/compiler/watcom.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/compiler/unix-lcc.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/compiler/emx.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/compiler/ansi-cc.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/compiler/gcc-dev.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/compiler/bcc.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/compiler/visualc.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/compiler/visualage.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/compiler/win-lcc.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/amiga
+dpkg-source: warning: ignoring deletion of file builds/amiga/README, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/amiga/smakefile, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/amiga/makefile.os4, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/amiga/makefile, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/amiga/include
+dpkg-source: warning: ignoring deletion of directory builds/amiga/include/config
+dpkg-source: warning: ignoring deletion of file builds/amiga/include/config/ftmodule.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/amiga/include/config/ftconfig.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/amiga/src
+dpkg-source: warning: ignoring deletion of directory builds/amiga/src/base
+dpkg-source: warning: ignoring deletion of file builds/amiga/src/base/ftsystem.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/amiga/src/base/ftdebug.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/symbian
+dpkg-source: warning: ignoring deletion of file builds/symbian/bld.inf, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/symbian/freetype.mmp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/unix
+dpkg-source: warning: ignoring deletion of file builds/unix/unix.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/freetype2.m4, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/configure, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/ax_compare_version.m4, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/detect.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/ax_prog_python_version.m4, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/config.guess, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/freetype2.in, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/configure.ac, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/install.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/ax_pthread.m4, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/unix-lcc.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/aclocal.m4, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/unixddef.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/config.sub, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/unix-dev.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/ftconfig.h.in, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/install-sh, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/ltmain.sh, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/pkg.m4, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/ft-munmap.m4, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/unix-cc.in, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/ftsystem.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/unix-def.in, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/configure.raw, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/unix/freetype-config.in, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/dos
+dpkg-source: warning: ignoring deletion of file builds/dos/dos-def.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/dos/detect.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/dos/dos-wat.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/dos/dos-gcc.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/dos/dos-emx.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/wince
+dpkg-source: warning: ignoring deletion of file builds/wince/ftdebug.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/wince/vc2008-ce
+dpkg-source: warning: ignoring deletion of file builds/wince/vc2008-ce/index.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/wince/vc2008-ce/freetype.vcproj, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/wince/vc2008-ce/freetype.sln, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/wince/vc2005-ce
+dpkg-source: warning: ignoring deletion of file builds/wince/vc2005-ce/index.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/wince/vc2005-ce/freetype.vcproj, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/wince/vc2005-ce/freetype.sln, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/ansi
+dpkg-source: warning: ignoring deletion of file builds/ansi/ansi-def.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/ansi/ansi.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/cmake
+dpkg-source: warning: ignoring deletion of file builds/cmake/iOS.cmake, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/cmake/FindHarfBuzz.cmake, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/cmake/FindBrotliDec.cmake, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/cmake/testbuild.sh, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/beos
+dpkg-source: warning: ignoring deletion of file builds/beos/detect.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/beos/beos-def.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/beos/beos.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/meson
+dpkg-source: warning: ignoring deletion of file builds/meson/parse_modules_cfg.py, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/meson/extract_libtool_version.py, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/meson/extract_freetype_version.py, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/meson/generate_reference_docs.py, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/meson/process_ftoption_h.py, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory builds/atari
+dpkg-source: warning: ignoring deletion of file builds/atari/ATARI.H, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/atari/FNames.SIC, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/atari/README.TXT, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/atari/FREETYPE.PRJ, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/atari/deflinejoiner.awk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file builds/atari/gen-purec-patch.sh, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory objs
+dpkg-source: warning: ignoring deletion of file objs/README, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos
+dpkg-source: warning: ignoring deletion of file ft2demos/meson.build, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/vms_make.com, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/ChangeLog.old, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/README, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/Makefile, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/ChangeLog, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/README.meson, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/graph
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/meson.build, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/gblblit.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/gblany.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/migs.html, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/grdevice.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/grfont.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/gblender.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/gblender.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/grobjs.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/grconfig.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/grobjs.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/grfont.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/grswizzle.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/xtest.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/grevents.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/gblblit.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/grinit.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/graph.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/grdevice.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/grfill.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/grtypes.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/grswizzle.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/graph/os2
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/os2/gros2pm.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/os2/gros2pm.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/os2/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/os2/gros2pm.def, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/graph/allegro
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/allegro/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/allegro/gralleg.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/allegro/gralleg.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/graph/mac
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/mac/grmac.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/mac/grmac.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/graph/batch
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/batch/grbatch.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/batch/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/batch/grbatch.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/graph/win32
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/win32/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/win32/grwin32.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/win32/grwin32.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/graph/beos
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/beos/grbeos.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/beos/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/beos/grbeos.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/graph/x11
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/x11/rules.mk, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/x11/grx11.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/graph/x11/grx11.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/mac
+dpkg-source: warning: ignoring deletion of file ft2demos/mac/ftoldmac.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/mac/ftview_m.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/mac/ftoldmac.m68k_far.make.txt, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/mac/resource.hqx, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/mac/ascii2mpw.py, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/mac/README, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/mac/Makefile, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/mac/ftoldmac.ppc_classic.make.txt, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/mac/getargv.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/mac/getargv.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/mac/ftlint_m.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/mac/codewarrior
+dpkg-source: warning: ignoring deletion of file ft2demos/mac/codewarrior/ftlint.prj, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/mac/codewarrior/carbonprefix.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/mac/codewarrior/ftview.prj, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/bin
+dpkg-source: warning: ignoring deletion of file ft2demos/bin/README, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/man
+dpkg-source: warning: ignoring deletion of file ft2demos/man/ttdebug.1, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/man/ftgrid.1, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/man/ftgamma.1, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/man/ftvalid.1, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/man/ftview.1, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/man/ftsdf.1, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/man/ftbench.1, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/man/ftdump.1, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/man/ftstring.1, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/man/ftmulti.1, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/man/ftlint.1, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/man/ftdiff.1, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/subprojects
+dpkg-source: warning: ignoring deletion of file ft2demos/subprojects/freetype2.wrap, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/subprojects/libpng.wrap, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/subprojects/zlib.wrap, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/src
+dpkg-source: warning: ignoring deletion of file ft2demos/src/md5.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftmulti.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftdump.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/fttimer.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/rsvg-port.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/output.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftsdf.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/strbuf.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/gbench.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftview.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/rsvg-port.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftmemchk.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftpatchk.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/testname.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftsbit.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftchkwd.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/strbuf.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/mlgetopt.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftgrid.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/mlgetopt.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftstring.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftgamma.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/md5.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftpngout.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/common.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftbench.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftdiff.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/common.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftvalid.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftcommon.h, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftcommon.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/fttry.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/compos.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ttdebug.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftlint.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/output.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/gbench.c, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/src/ftinspect
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/meson.build, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/ftinspect.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/maingui.hpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/maingui.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/ftinspect.pro, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/src/ftinspect/rendering
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/rendering/glyphpointnumbers.hpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/rendering/glyphpoints.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/rendering/glyphoutline.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/rendering/glyphpoints.hpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/rendering/grid.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/rendering/glyphbitmap.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/rendering/glyphoutline.hpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/rendering/glyphbitmap.hpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/rendering/grid.hpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/rendering/glyphpointnumbers.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/src/ftinspect/engine
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/engine/engine.hpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/engine/engine.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/src/ftinspect/widgets
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/widgets/qgraphicsviewx.hpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/widgets/qpushbuttonx.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/widgets/qcomboboxx.hpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/widgets/qspinboxx.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/widgets/qgraphicsviewx.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/widgets/qpushbuttonx.hpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/widgets/qspinboxx.hpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/src/ftinspect/widgets/qcomboboxx.cpp, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/builds
+dpkg-source: warning: ignoring deletion of directory ft2demos/builds/windows
+dpkg-source: warning: ignoring deletion of directory ft2demos/builds/windows/msvc
+dpkg-source: warning: ignoring deletion of file ft2demos/builds/windows/msvc/ftdump.vcxproj, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/builds/windows/msvc/ftlint.vcxproj, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/builds/windows/msvc/migs.vcxproj, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/builds/windows/msvc/ftgamma.vcxproj, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/builds/windows/msvc/ftgrid.vcxproj, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/builds/windows/msvc/ftstring.vcxproj, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/builds/windows/msvc/ftview.vcxproj, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/builds/windows/msvc/ft2demos.sln, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/builds/windows/msvc/ftbench.vcxproj, use --include-removal to override
+dpkg-source: warning: ignoring deletion of file ft2demos/builds/windows/msvc/ft2demos.props, use --include-removal to override
+dpkg-source: warning: ignoring deletion of directory ft2demos/objs
+dpkg-source: warning: ignoring deletion of file ft2demos/objs/README, use --include-removal to override
+dpkg-source: info: building freetype in freetype_2.12.1-1000.debian.tar.xz
+dpkg-source: info: building freetype in freetype_2.12.1-1000.dsc
+File 'freetype_2.12.1-1000.dsc' found!
+Build completed!
+--- [SYSTEM] MOVE: '/root/git/repo_src' -> '/root/git/repo_dst'
+Removing old files from repository...
+Moving new files to repository...
+renamed '/root/git/repo_src/_service' -> '/root/git/repo_dst/_service'
+renamed '/root/git/repo_src/_meta' -> '/root/git/repo_dst/_meta'
+renamed '/root/git/repo_src/README.md' -> '/root/git/repo_dst/README.md'
+renamed '/root/git/repo_src/LICENSE' -> '/root/git/repo_dst/LICENSE'
+renamed '/root/git/repo_src/freetype_2.12.1-1000.debian.tar.xz' -> '/root/git/repo_dst/freetype_2.12.1-1000.debian.tar.xz'
+renamed '/root/git/repo_src/freetype_2.12.1.orig-ft2demos.tar.xz' -> '/root/git/repo_dst/freetype_2.12.1.orig-ft2demos.tar.xz'
+renamed '/root/git/repo_src/freetype_2.12.1.orig-ft2docs.tar.xz' -> '/root/git/repo_dst/freetype_2.12.1.orig-ft2docs.tar.xz'
+renamed '/root/git/repo_src/freetype_2.12.1.orig.tar.xz' -> '/root/git/repo_dst/freetype_2.12.1.orig.tar.xz'
+renamed '/root/git/repo_src/freetype_2.12.1-1000.dsc' -> '/root/git/repo_dst/freetype_2.12.1-1000.dsc'
+renamed '/root/git/repo_src/build.log' -> '/root/git/repo_dst/build.log'
+renamed '/root/git/repo_src/git.debian.log' -> '/root/git/repo_dst/git.debian.log'
