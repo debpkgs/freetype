@@ -1197,6 +1197,17 @@ File 'freetype_2.12.1-1000.dsc' found!
 Build completed!
 --- [SYSTEM] MOVE: '/root/git/repo_src' -> '/root/git/repo_dst'
 Removing old files from repository...
+removed '/root/git/repo_dst/LICENSE'
+removed '/root/git/repo_dst/README.md'
+removed '/root/git/repo_dst/_meta'
+removed '/root/git/repo_dst/_service'
+removed '/root/git/repo_dst/build.log'
+removed '/root/git/repo_dst/freetype_2.12.1-1000.debian.tar.xz'
+removed '/root/git/repo_dst/freetype_2.12.1-1000.dsc'
+removed '/root/git/repo_dst/freetype_2.12.1.orig-ft2demos.tar.xz'
+removed '/root/git/repo_dst/freetype_2.12.1.orig-ft2docs.tar.xz'
+removed '/root/git/repo_dst/freetype_2.12.1.orig.tar.xz'
+removed '/root/git/repo_dst/git.debian.log'
 Moving new files to repository...
 renamed '/root/git/repo_src/_service' -> '/root/git/repo_dst/_service'
 renamed '/root/git/repo_src/_meta' -> '/root/git/repo_dst/_meta'
